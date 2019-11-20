@@ -388,7 +388,7 @@ default:
                 {% endif %}
                 <div class="{{display_sm_icon_css}}">
                   <div class="icon {{ css_icon }} ">
-                    <a class="icon-link ">
+                    <a class="icon-link " href="{% path_to 'account_index'%}">
                       <img src="{{ block.settings.icon }}" alt="{{ block.settings.label }}"  class="icon-img"/>
                       <div class="icon-label d-none d-md-flex  btn-group ">
                         <a class="btn btn-link p-0 pl-1 text-dark "  href="{% path_to 'account_index'%}">
